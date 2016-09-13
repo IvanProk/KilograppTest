@@ -49,4 +49,10 @@ public class ResponseItem implements Serializable {
     public void setId(Integer id) {
         this.id = id;
     }
+
+    public void setParameters(int id, String artist, String song){
+        setId(id);
+        setAuthor(artist);
+        setLabel(song);
+    }
 }

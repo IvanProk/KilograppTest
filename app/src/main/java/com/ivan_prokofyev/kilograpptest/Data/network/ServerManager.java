@@ -43,7 +43,7 @@ public class ServerManager {
         return instance;
     }
 
-//public ArrayList<ResponseItem> getSongs() {
+//public ArrayList<ResponseItem> showSongs() {
 //
 //    final ArrayList<ResponseItem> listOfSongs = new ArrayList<>();
 //

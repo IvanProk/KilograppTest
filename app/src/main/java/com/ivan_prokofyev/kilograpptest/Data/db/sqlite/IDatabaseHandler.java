@@ -11,7 +11,6 @@ public interface IDatabaseHandler {
     void addSong(ResponseItem song);
     ResponseItem getSong(int id);
     List<ResponseItem> getAllSongs();
-    void addAllSongs(List<ResponseItem> songs);
     int getSongsCount();
     int updateSong(ResponseItem song);
     void deleteSong(ResponseItem song);
